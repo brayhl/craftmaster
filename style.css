@@ -45,7 +45,7 @@ a:hover {
 
 .topNavBar ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +72,10 @@ a:hover {
     transform: scale(0.9);
 }
 
+.topNavBar h1 a {
+    margin-right:10px;
+}
+
 
 
 
@@ -82,5 +86,51 @@ a:hover {
   border-radius: 8px; 
 }
 
+.cutehubNavBar {
+    background-color: darkgrey;
+    width: 75%;
+    color: darkslategrey;
+    text-align: center;
+    margin: 0 auto; 
+}
 
 
+.cutehubNavBar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cutehubNavBar li {
+    margin-right: 10px;
+}
+
+.cutehubNavBar li a {
+    text-decoration: none;
+    color: darkslategray;
+    padding: 20px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.cutehubNavBar h2 a {
+    color:darkslategrey;
+    margin-right:10px;
+}
+
+.cutehubNavBar li a:hover {
+    color: darksl;
+    transform: scale(1.15);
+}
+
+.cutehubNavBar li a:active {
+    transform: scale(0.9);
+}
+
+.cutehubimage {
+    border:5px solid black;
+}

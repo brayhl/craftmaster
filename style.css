@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+  color: darkgrey;
+}
+
 .topNavBar {
     background-color: darkslategray;
     width: 100%;
@@ -54,9 +58,29 @@ a {
 .topNavBar li a {
     text-decoration: none;
     color: white;
-    padding: 5px 10px; 
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
 }
 
 .topNavBar li a:hover {
-    text-decoration: underline;
+    color: darkgrey;
+    transform: scale(1.15);
 }
+
+.topNavBar li a:active {
+    transform: scale(0.9);
+}
+
+
+
+
+.news {
+  background-color: #333333;
+  padding: 10px;
+  display: inline-block; 
+  border-radius: 8px; 
+}
+
+
+
